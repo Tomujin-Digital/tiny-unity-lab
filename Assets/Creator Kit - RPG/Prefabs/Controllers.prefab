@@ -68,17 +68,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a6ce09d4840c401995632acfaf7593f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stepSize: 0.2
+  stepSize: 0.1
   playerControls:
     m_Name: Player Controls
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 088957f5-f81d-4ec6-85aa-0cdd461d5207
+    m_Id: 0fecafee-676c-47c2-bd44-c379360e5792
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 3D Vector
-      m_Id: 33283e00-8a55-472d-8a0e-5927593d3340
+      m_Id: b570392f-07e2-441e-8c6b-4bcc0f220e09
       m_Path: 3DVector
       m_Interactions: 
       m_Processors: 
@@ -86,7 +86,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 4
     - m_Name: up
-      m_Id: f41a37a5-34ad-4c88-8594-746acdf499ce
+      m_Id: 0c948d90-2992-46d6-afb3-d3092887e5d0
       m_Path: <Gamepad>/leftStick/up
       m_Interactions: 
       m_Processors: 
@@ -94,7 +94,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: down
-      m_Id: 60809bff-b844-4bc1-b3ae-8423b889c2b5
+      m_Id: fb6283ae-0725-4815-a185-71a9f38e7a2f
       m_Path: <Gamepad>/leftStick/down
       m_Interactions: 
       m_Processors: 
@@ -102,7 +102,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: left
-      m_Id: f6776710-f7ff-4b13-b199-9182fa511a58
+      m_Id: e622413a-85d3-4f0e-829d-22fb94b8213a
       m_Path: <Gamepad>/leftStick/left
       m_Interactions: 
       m_Processors: 
@@ -110,7 +110,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: right
-      m_Id: e5db3bd4-b0de-4387-b94e-5b3d89fed37f
+      m_Id: 5e1af792-a1d7-438b-b42a-a0efe2f6f92d
       m_Path: <Gamepad>/leftStick/right
       m_Interactions: 
       m_Processors: 
@@ -118,7 +118,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: forward
-      m_Id: 3b6d3937-903d-468e-91bd-b9b2c9afcb1b
+      m_Id: 0c31d41d-b81f-4515-8748-dc1e87f2152e
       m_Path: 
       m_Interactions: 
       m_Processors: 
@@ -126,7 +126,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     - m_Name: backward
-      m_Id: ec766905-0694-4a17-bc17-c20cde9fc048
+      m_Id: 333436e3-0e9a-43af-b3ee-bb79544f8955
       m_Path: 
       m_Interactions: 
       m_Processors: 
@@ -134,7 +134,7 @@ MonoBehaviour:
       m_Action: Player Controls
       m_Flags: 8
     m_Flags: 0
---- !u!114 &869517757823192805
+--- !u!114 &1318976432026030868
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
