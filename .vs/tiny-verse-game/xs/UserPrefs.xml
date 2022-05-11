@@ -1,9 +1,16 @@
 ﻿<Properties StartupConfiguration="{A4B5E82F-74A0-A1A2-D66A-DE4F42F61ACB}|">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader">
     <Files>
       <File FileName="../../rpg/Assets/Creator Kit - RPG/Scripts/Gameplay/NPCController.cs" Line="59" Column="41" />
       <File FileName="../../rpg/Assets/Creator Kit - RPG/Scripts/Gameplay/CharacterController2D.cs" Line="43" Column="58" />
       <File FileName="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - RPG/Scripts/Gameplay/RoomTransition.cs">
+    <Files>
+      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraBoundery.cs" Line="29" Column="1" />
+      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/RoomTransition.cs" Line="33" Column="1" />
+>>>>>>> d19f59fa50f19b0ef88014e86ded82fb50a28aab
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +22,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eff98a08-6e83-4d2e-bc40-3bcb41f23428" />
+=======
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="abae68e8-8888-4a87-b2ea-c244cbc96526" />
+>>>>>>> d19f59fa50f19b0ef88014e86ded82fb50a28aab
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
