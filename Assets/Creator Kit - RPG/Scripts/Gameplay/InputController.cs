@@ -11,7 +11,7 @@ namespace RPGM.UI
     public class InputController : MonoBehaviour
     {
         public float stepSize = 0.5f;
-        private Vector3 moveDelta;
+        private Vector3 moveDelta = Vector3.zero;
         public InputAction playerControls;
         private Rigidbody2D rb;
 
@@ -53,19 +53,21 @@ namespace RPGM.UI
 
         void DialogControl()
         {
+            //Fix me SelectActiveButton
+            model.dialog.SelectActiveButton();
+            
             model.player.nextMoveCommand = Vector3.zero;
             if (Input.GetKeyDown(KeyCode.LeftArrow))
                 model.dialog.FocusButton(-1);
             else if (Input.GetKeyDown(KeyCode.RightArrow))
                 model.dialog.FocusButton(+1);
-            if (Input.GetKeyDown(KeyCode.Space))
-                model.dialog.SelectActiveButton();
         }
 
         void CharacterControl()
         {   
             moveDelta = playerControls.ReadValue<Vector3>();
             moveDelta = new Vector3(moveDelta.x, moveDelta.y, 0);
+            Debug.Log(model.player);
             model.player.nextMoveCommand = moveDelta * stepSize;
         }
     }
