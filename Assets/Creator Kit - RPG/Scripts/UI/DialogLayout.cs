@@ -11,7 +11,7 @@ namespace RPGM.UI
     [ExecuteInEditMode]
     public class DialogLayout : MonoBehaviour
     {
-        public float padding = 0.25f;
+        public float padding = 0.5f;
         public SpriteRenderer iconRenderer;
         public SpriteRenderer spriteRenderer;
         public TextMeshPro textMeshPro;
@@ -96,20 +96,20 @@ namespace RPGM.UI
 
         void Update()
         {
-            PositionIcon();
-            ScaleBackgroundToFitText();
-            PositionButtons();
+            // PositionIcon();
+            // ScaleBackgroundToFitText();
+            // PositionButtons();
         }
 
-        void PositionIcon()
-        {
-            if (iconRenderer.sprite != null)
-            {
-                var p = new Vector3(1, 0, 0);
-                // p.x -= iconRenderer.size.x * 0.5f;
-                iconRenderer.transform.localPosition = p;
-            }
-        }
+        // void PositionIcon()
+        // {
+        //     if (iconRenderer.sprite != null)
+        //     {
+        //         var p = new Vector3(1, 0, 0);
+        //         // p.x -= iconRenderer.size.x * 0.5f;
+        //         iconRenderer.transform.localPosition = p;
+        //     }
+        // }
 
         void PositionButtons()
         {
