@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{A4B5E82F-74A0-A1A2-D66A-DE4F42F61ACB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - RPG/Scripts/Gameplay/MinimapMovement.cs">
     <Files>
       <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraController.cs" Line="27" Column="10" />
+      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/MinimapMovement.cs" Line="11" Column="81" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="tiny-verse-game" expanded="True">
-            <Node name="Assets" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
               <Node name="Creator Kit - RPG" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="Gameplay" expanded="True">
-                    <Node name="CameraController.cs" selected="True" />
-                  </Node>
+                  <Node name="Gameplay" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -23,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="41b8b516-be33-4c30-ac98-b34a284638d5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d0016737-bae0-4c77-9dec-1cebbc4490ed" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
