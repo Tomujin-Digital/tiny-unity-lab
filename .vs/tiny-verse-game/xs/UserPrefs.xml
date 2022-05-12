@@ -1,10 +1,7 @@
-<Properties 
-StartupConfiguration="{A4B5E82F-74A0-A1A2-D66A-DE4F42F61ACB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - 
-RPG/Scripts/Gameplay/CameraController.cs">
+﻿<Properties StartupConfiguration="{A4B5E82F-74A0-A1A2-D66A-DE4F42F61ACB}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraController.cs">
     <Files>
-      <File FileName="Assets/Creator Kit - 
-RPG/Scripts/Gameplay/CameraController.cs" Line="26" Column="14" />
+      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraController.cs" Line="27" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,8 +23,7 @@ RPG/Scripts/Gameplay/CameraController.cs" Line="26" Column="14" />
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp 
-PreferredExecutionTarget="41b8b516-be33-4c30-ac98-b34a284638d5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="41b8b516-be33-4c30-ac98-b34a284638d5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
