@@ -13,6 +13,8 @@ namespace RPGM.Gameplay
     {
         public Transform focus;
         public float smoothTime = 2;
+        public Vector2 maxPosition;
+        public Vector2 minPosition;
 
         Vector3 offset;
 
@@ -23,7 +25,12 @@ namespace RPGM.Gameplay
 
         void Update()
         {
-            transform.position = Vector3.Lerp(transform.position, focus.position - offset, Time.deltaTime * smoothTime);
+            var target = focus.position - offset;
+            Vector3 targetPosition = new Vector3(focus.position.x, focus.position.y, transform.position.z);
+            targetPosition.x = Mathf.Clamp(targetPosition.x, minPosition.x, maxPosition.x);
+            targetPosition.y = Mathf.Clamp(targetPosition.y, minPosition.y, maxPosition.y); 
+            
+            transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * smoothTime);
         }
     }
 }
