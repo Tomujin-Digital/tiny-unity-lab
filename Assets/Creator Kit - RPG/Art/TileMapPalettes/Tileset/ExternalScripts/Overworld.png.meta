@@ -249,12 +249,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -4, y: 5}
-        - {x: -6, y: 2}
-        - {x: -5, y: -1}
-        - {x: -2, y: -1}
-        - {x: 0, y: 1}
-        - {x: 0, y: 4}
+      - - {x: -3, y: 2}
+        - {x: -1, y: -2}
+        - {x: 1, y: -3}
+        - {x: 4, y: -3}
+        - {x: 2, y: 0}
+        - {x: 0, y: 2}
       tessellationDetail: 0
       bones: []
       spriteID: a9b80ae0bd26f42b79eb1ce24eabcdc1
@@ -23117,19 +23117,19 @@ TextureImporter:
       Overworld_1049: -878049341
       Overworld_896: 1200963951
       Overworld_506: -2042040884
-      Overworld_51: -1219440435
       Overworld_653: -404439247
       Overworld_939: -168478161
+      Overworld_900: -172402608
       Overworld_473: -2134846331
-      Overworld_767: 247461665
+      Overworld_779: -1832472146
       Overworld_375: -249078049
       Overworld_688: -581648031
-      Overworld_779: -1832472146
+      Overworld_767: 247461665
       Overworld_858: -2060056344
       Overworld_79: -452053787
       Overworld_1034: 103227462
       Overworld_359: 1115634013
-      Overworld_900: -172402608
+      Overworld_51: -1219440435
       Overworld_142: -30931618
       Overworld_657: 525141271
       Overworld_852: -682866387
@@ -23325,13 +23325,13 @@ TextureImporter:
       Overworld_285: -1639172436
       Overworld_1008: 960950767
       Overworld_160: 2076066029
-      Overworld_424: -1199361465
+      Overworld_873: -1504124116
       Overworld_472: 1632026140
       Overworld_57: 937512752
       Overworld_787: 324546161
-      Overworld_873: -1504124116
       Overworld_47: 256845240
       Overworld_185: -100019249
+      Overworld_424: -1199361465
       Overworld_410: 1292364902
       Overworld_233: -1730015826
       Overworld_260: 102868067
@@ -23602,13 +23602,13 @@ TextureImporter:
       Overworld_817: 205269879
       Overworld_1036: -396885491
       Overworld_502: 650254244
+      Overworld_303: -1895919925
+      Overworld_446: -1640025254
+      Overworld_452: 244872518
       Overworld_866: 446598499
       Overworld_1052: 1610294256
-      Overworld_452: 244872518
-      Overworld_303: -1895919925
-      Overworld_317: 62930042
       Overworld_396: -189168243
-      Overworld_446: -1640025254
+      Overworld_317: 62930042
       Overworld_569: 1300484608
       Overworld_647: -1816846665
       Overworld_421: -441020614
@@ -23710,8 +23710,8 @@ TextureImporter:
       Overworld_101: -1316304554
       Overworld_884: -1300522718
       Overworld_367: 1390684837
-      Overworld_60: 1688177001
       Overworld_408: -1697254316
+      Overworld_60: 1688177001
       Overworld_1056: 1884610712
       Overworld_294: -970366721
       Overworld_970: 1833843782
