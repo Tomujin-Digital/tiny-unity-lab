@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3495742470786744569}
   - component: {fileID: 3495742470786744568}
   - component: {fileID: 3495742470786744570}
+  - component: {fileID: 8721750871721263236}
   m_Layer: 5
   m_Name: Stick
   m_TagString: Untagged
@@ -37,8 +38,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: -591}
-  m_SizeDelta: {x: 189.465, y: 182.1564}
+  m_AnchoredPosition: {x: 19.999939, y: -725.96387}
+  m_SizeDelta: {x: 472.4485, y: 454.2237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3495742470786744569
 CanvasRenderer:
@@ -92,6 +93,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MovementRange: 50
   m_ControlPath: <Gamepad>/leftStick
+--- !u!114 &8721750871721263236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3495742470786744517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ControlPath: <Mouse>/leftButton
 --- !u!1 &3495742470854470396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,8 +1129,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.99997, y: -591}
-  m_SizeDelta: {x: 414.8877, y: 414.0366}
+  m_AnchoredPosition: {x: 20, y: -725.96387}
+  m_SizeDelta: {x: 555.3925, y: 554.2532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &210729713334438098
 CanvasRenderer:
