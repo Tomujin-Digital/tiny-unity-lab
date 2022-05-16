@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{A4B5E82F-74A0-A1A2-D66A-DE4F42F61ACB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - RPG/Scripts/Gameplay/MinimapMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - RPG/Scripts/Gameplay/NPCController.cs">
     <Files>
+      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/NPCController.cs" Line="17" Column="1" />
       <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/MinimapMovement.cs" Line="14" Column="2" />
       <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraController.cs" />
       <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/SceneTransition.cs" />
-      <File FileName="Assets/SceneTransitionFromSchoolsMap.cs" Line="8" Column="1" />
+      <File FileName="Assets/SceneTransitionFromSchoolsMap.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +15,7 @@
               <Node name="Creator Kit - RPG" expanded="True">
                 <Node name="Scripts" expanded="True">
                   <Node name="Gameplay" expanded="True">
-                    <Node name="MinimapMovement.cs" selected="True" />
+                    <Node name="NPCController.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
@@ -26,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a4e3628a-dff3-4ce1-85d9-204036b1f913" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8adc301f-4128-4f4f-bf28-0ac3b231d5d2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
