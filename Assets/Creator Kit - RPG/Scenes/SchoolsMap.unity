@@ -37099,9 +37099,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5157232473863966070, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
+      propertyPath: m_Color.a
+      value: 0.48235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157232473863966070, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.44313726
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157232473863966070, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.50980395
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157232473863966070, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3529412
+      objectReference: {fileID: 0}
     - target: {fileID: 5157232474180993787, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
       propertyPath: m_Name
-      value: Canvas
+      value: MiniMapUI
       objectReference: {fileID: 0}
     - target: {fileID: 5157232474180993791, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
       propertyPath: m_Pivot.x

@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{A4B5E82F-74A0-A1A2-D66A-DE4F42F61ACB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SceneTransitionFromSchoolsMap.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creator Kit - RPG/Scripts/Gameplay/MinimapMovement.cs">
     <Files>
-      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/MinimapMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraController.cs" Line="13" Column="6" />
-      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/SceneTransition.cs" Line="1" Column="1" />
-      <File FileName="Assets/SceneTransitionFromSchoolsMap.cs" Line="8" Column="5" />
+      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/MinimapMovement.cs" Line="14" Column="2" />
+      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraController.cs" />
+      <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/SceneTransition.cs" />
+      <File FileName="Assets/SceneTransitionFromSchoolsMap.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,10 +13,11 @@
             <Node name="Assets" expanded="True">
               <Node name="Creator Kit - RPG" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="Gameplay" expanded="True" />
+                  <Node name="Gameplay" expanded="True">
+                    <Node name="MinimapMovement.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
-              <Node name="SceneTransitionFromSchoolsMap.cs" selected="True" />
             </Node>
           </Node>
         </State>
