@@ -12,7 +12,7 @@ namespace RPGM.Gameplay
     /// </summary>
     public class CharacterController2D : MonoBehaviour
     {
-        public float speed = 1;
+        private float speed = 25;
         public float acceleration = 2;
         public Vector3 nextMoveCommand;
         public Animator animator;
