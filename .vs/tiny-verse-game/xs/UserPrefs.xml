@@ -5,7 +5,7 @@
       <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/CameraController.cs" />
       <File FileName="Assets/Creator Kit - RPG/Scripts/Gameplay/SceneTransition.cs" />
       <File FileName="Assets/SceneTransitionFromSchoolsMap.cs" Line="8" Column="1" />
-      <File FileName="Assets/MainMenu.cs" Line="19" Column="1" />
+      <File FileName="Assets/MainMenu.cs" Line="10" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
