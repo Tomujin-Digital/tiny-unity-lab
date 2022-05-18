@@ -100,6 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   focus: {fileID: 0}
   smoothTime: 2
+  maxPosition: {x: 100, y: 100}
+  minPosition: {x: -100, y: -9}
 --- !u!114 &575832600
 MonoBehaviour:
   m_ObjectHideFlags: 0
