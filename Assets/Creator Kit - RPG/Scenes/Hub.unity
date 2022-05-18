@@ -1678,22 +1678,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1223484894}
     m_Modifications:
-    - target: {fileID: 808376907, guid: ab3f7178010354d87a5016c7d6b23a5a, type: 3}
-      propertyPath: camera
-      value: 
-      objectReference: {fileID: 1440534160}
-    - target: {fileID: 1057964449200028151, guid: ab3f7178010354d87a5016c7d6b23a5a, type: 3}
-      propertyPath: m_SortingLayer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1057964449200028151, guid: ab3f7178010354d87a5016c7d6b23a5a, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1057964449200028151, guid: ab3f7178010354d87a5016c7d6b23a5a, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1481126516830738366, guid: ab3f7178010354d87a5016c7d6b23a5a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1915,6 +1899,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5157232474180993791, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157232474180993791, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157232474180993791, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157232474180993791, guid: 655a87ea75ff7453c913cc14f70f574e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1982,11 +1978,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2950804947535917089, guid: 7c53998562858411aa85d8e0c4bc1333, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.740063
+      value: 15.713066
       objectReference: {fileID: 0}
     - target: {fileID: 2950804947535917089, guid: 7c53998562858411aa85d8e0c4bc1333, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.643675
+      value: 12.893675
       objectReference: {fileID: 0}
     - target: {fileID: 2950804947535917089, guid: 7c53998562858411aa85d8e0c4bc1333, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2023,7 +2019,7 @@ PrefabInstance:
     - target: {fileID: 2950804947535917091, guid: 7c53998562858411aa85d8e0c4bc1333, type: 3}
       propertyPath: camera
       value: 
-      objectReference: {fileID: 1440534160}
+      objectReference: {fileID: 0}
     - target: {fileID: 2950804947535917092, guid: 7c53998562858411aa85d8e0c4bc1333, type: 3}
       propertyPath: m_Name
       value: Inventory
@@ -11386,11 +11382,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb58dc84dca7b49f99bde3835c80609b, type: 3}
---- !u!20 &1440534160 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 6943210775000656825, guid: fb58dc84dca7b49f99bde3835c80609b, type: 3}
-  m_PrefabInstance: {fileID: 1440534159}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1488997143
 GameObject:
   m_ObjectHideFlags: 0
@@ -11545,6 +11536,10 @@ PrefabInstance:
       value: 65535
       objectReference: {fileID: 0}
     - target: {fileID: 2284839537375736924, guid: 9c7cbb01d716340ab97a9c902e59ccee, type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 2284839537375736924, guid: 9c7cbb01d716340ab97a9c902e59ccee, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}
@@ -11559,18 +11554,18 @@ PrefabInstance:
     - target: {fileID: 2284839538730388816, guid: 9c7cbb01d716340ab97a9c902e59ccee, type: 3}
       propertyPath: camera
       value: 
-      objectReference: {fileID: 1440534160}
+      objectReference: {fileID: 0}
     - target: {fileID: 2284839538730388818, guid: 9c7cbb01d716340ab97a9c902e59ccee, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2284839538730388818, guid: 9c7cbb01d716340ab97a9c902e59ccee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.179588
+      value: 15.713066
       objectReference: {fileID: 0}
     - target: {fileID: 2284839538730388818, guid: 9c7cbb01d716340ab97a9c902e59ccee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.643675
+      value: 12.893675
       objectReference: {fileID: 0}
     - target: {fileID: 2284839538730388818, guid: 9c7cbb01d716340ab97a9c902e59ccee, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11715,7 +11710,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11725,7 +11720,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11765,7 +11760,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 6
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -11810,10 +11805,10 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 1077257986, guid: 257f8a5c7121f4e129eca7283ce054e2, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 1158728044, guid: bb8d3c286250a4585ac44e3942f1525d, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 906677729, guid: bb8d3c286250a4585ac44e3942f1525d, type: 3}
   - m_RefCount: 1
@@ -11823,9 +11818,9 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -224368611, guid: bb8d3c286250a4585ac44e3942f1525d, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: 1158728044, guid: bb8d3c286250a4585ac44e3942f1525d, type: 3}
+  - m_RefCount: 1
     m_Data: {fileID: 1976252526, guid: bb8d3c286250a4585ac44e3942f1525d, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 4
     m_Data:
