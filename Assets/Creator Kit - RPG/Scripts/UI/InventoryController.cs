@@ -12,6 +12,7 @@ namespace RPGM.UI
     {
         public Transform elementPrototype;
         public float stepSize = 1;
+        public GameObject inventory;
 
         Vector2 firstItem;
         GameModel model = Schedule.GetModel<GameModel>();
@@ -19,6 +20,7 @@ namespace RPGM.UI
 
         void Start()
         {
+
             firstItem = elementPrototype.localPosition;
             elementPrototype.gameObject.SetActive(false);
             sizer = GetComponent<SpriteUIElement>();
@@ -51,5 +53,13 @@ namespace RPGM.UI
             else
                 sizer.Hide();
         }
+        public void HideAndShowInventory()
+        {
+            
+               inventory.SetActive(!inventory.activeSelf);
+            
+        }
     }
+    
+
 }
