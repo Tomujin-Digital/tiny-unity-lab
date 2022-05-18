@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8171158353334016008}
   - component: {fileID: 8171158353334016009}
   - component: {fileID: 8171158353334016022}
-  - component: {fileID: 4080630219757057111}
+  - component: {fileID: 8171158352695083181}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -143,7 +143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83c8d37d500664cd589dc84f2feadcf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
   acceleration: 0.1
   nextMoveCommand: {x: 0, y: 0, z: 0}
   animator: {fileID: 8171158353334016010}
@@ -164,8 +163,8 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0068097115, y: 0.15}
   m_Size: {x: 0.3, y: 0.01}
   m_Direction: 0
---- !u!68 &4080630219757057111
-EdgeCollider2D:
+--- !u!70 &8171158352695083181
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -177,28 +176,9 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.04795584, y: 0.7428694}
-  - {x: -0.13238439, y: 0.701787}
-  - {x: -0.21105, y: 0.61282825}
-  - {x: -0.21538875, y: 0.49701405}
-  - {x: -0.27512226, y: 0.4841175}
-  - {x: -0.25532588, y: 0.37770653}
-  - {x: -0.17195913, y: 0.34393692}
-  - {x: -0.01959446, y: 0.317873}
-  - {x: 0.13043779, y: 0.36782265}
-  - {x: 0.31941178, y: 0.5456724}
-  - {x: 0.21291874, y: 0.5874796}
-  - {x: 0.1834386, y: 0.6815052}
-  - {x: 0.13507959, y: 0.6995745}
-  - {x: 0.08529347, y: 0.7345314}
-  - {x: -0.041458726, y: 0.74119663}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
+  m_Offset: {x: 0.000000059604645, y: 0.52019334}
+  m_Size: {x: 0.4615103, y: 0.4615104}
+  m_Direction: 0
 --- !u!1 &8171158353547470275
 GameObject:
   m_ObjectHideFlags: 0
