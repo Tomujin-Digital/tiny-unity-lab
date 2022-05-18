@@ -12,18 +12,27 @@ namespace RPGM.UI
         SpriteButton[] buttons;
         public System.Action<int> onButton;
         private GameObject dialogBackground;
+        private GameObject dialogIcon;
+        private GameObject[] dialogButtons;
         public int selectedButton = 0;
         public int buttonCount = 0;
 
-        private void Start()
+        private void Awake()
         {
             dialogBackground = GameObject.Find("DialogBar");
+
+            dialogIcon = GameObject.Find("Icon");
+            dialogButtons = GameObject.FindGameObjectsWithTag("DialogButton");
+            if (dialogIcon != null) dialogIcon.SetActive(false);
+            if(dialogButtons != null) {
+                foreach(GameObject button in dialogButtons) {
+                    button.SetActive(false);
+                }
+            };
             dialogBackground.SetActive(false);
-            // Image image = dialogBackground.GetComponent<Image>();
-            // print(image.color);
         }
 
-        public void Show(Vector3 position, string text)
+        public void Show(string text)
         {
             dialogBackground.SetActive(true);
             // d.SetText(text);
