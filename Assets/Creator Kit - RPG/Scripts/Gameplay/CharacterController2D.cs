@@ -17,6 +17,7 @@ namespace RPGM.Gameplay
         public Vector3 nextMoveCommand;
         public Animator animator;
         public bool flipX = false;
+        public VectorValue StartingPosition;
 
         new Rigidbody2D rigidbody2D;
         SpriteRenderer spriteRenderer;
@@ -33,6 +34,10 @@ namespace RPGM.Gameplay
         float startTime;
         float distance;
         float velocity;
+        private void Start()
+        {
+            transform.position = StartingPosition.initialValue;
+        }
 
         void IdleState()
         {
