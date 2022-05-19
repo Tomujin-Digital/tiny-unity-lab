@@ -13,7 +13,7 @@ namespace RPGM.UI
         SpriteButton[] buttons;
         public System.Action<int> onButton;
         private GameObject dialogBar;
-        public Text dialogBarText;
+        public TextMeshPro dialogBarText;
         private GameObject dialogIcon;
         private GameObject[] dialogButtons;
         public int selectedButton = 0;
@@ -25,7 +25,7 @@ namespace RPGM.UI
             dialogBar = GameObject.Find("DialogBar");
             dialogIcon = GameObject.Find("Icon");
             dialogButtons = GameObject.FindGameObjectsWithTag("DialogButton");
-            dialogBarText = GameObject.Find("ConversationText").GetComponent<Text>();
+            dialogBarText = GameObject.Find("ConversationText").GetComponent<TextMeshPro>();
 
             print(dialogBarText);
             if (dialogIcon != null) dialogIcon.SetActive(false);

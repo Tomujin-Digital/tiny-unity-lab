@@ -393,45 +393,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3707814214409055853, guid: bacfaa3f86f4534449d88a7c609cb447,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.9324646
-      objectReference: {fileID: 0}
-    - target: {fileID: 4340232028515727174, guid: bacfaa3f86f4534449d88a7c609cb447,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 49.067535
-      objectReference: {fileID: 0}
-    - target: {fileID: 4633470330975734546, guid: bacfaa3f86f4534449d88a7c609cb447,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 180.06754
-      objectReference: {fileID: 0}
     - target: {fileID: 5263845788546696537, guid: bacfaa3f86f4534449d88a7c609cb447,
         type: 3}
       propertyPath: m_Name
       value: DialogBar
-      objectReference: {fileID: 0}
-    - target: {fileID: 6923449862366883851, guid: bacfaa3f86f4534449d88a7c609cb447,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 53.231384
-      objectReference: {fileID: 0}
-    - target: {fileID: 7954306956454684084, guid: bacfaa3f86f4534449d88a7c609cb447,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 180.56754
-      objectReference: {fileID: 0}
-    - target: {fileID: 8790989498669010820, guid: bacfaa3f86f4534449d88a7c609cb447,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -54
-      objectReference: {fileID: 0}
-    - target: {fileID: 8958276199242074769, guid: bacfaa3f86f4534449d88a7c609cb447,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -54
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bacfaa3f86f4534449d88a7c609cb447, type: 3}
