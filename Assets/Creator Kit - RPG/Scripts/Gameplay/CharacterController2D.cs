@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using RPGM.Core;
 using RPGM.Gameplay;
 using UnityEngine;
 using UnityEngine.U2D;
@@ -16,8 +17,10 @@ namespace RPGM.Gameplay
         public float acceleration = 2;
         public Vector3 nextMoveCommand;
         public Animator animator;
+
+        GameModel model = Schedule.GetModel<GameModel>();
         public bool flipX = false;
-        public VectorValue StartingPosition;
+        // public VectorValue StartingPosition;
 
         new Rigidbody2D rigidbody2D;
         SpriteRenderer spriteRenderer;
@@ -36,7 +39,7 @@ namespace RPGM.Gameplay
         float velocity;
         private void Start()
         {
-            transform.position = StartingPosition.initialValue;
+            // transform.position = StartingPosition.initialValue;
         }
 
         void IdleState()
@@ -88,10 +91,7 @@ namespace RPGM.Gameplay
 
         void LateUpdate()
         {
-            if (pixelPerfectCamera != null)
-            {
-                transform.position = pixelPerfectCamera.RoundToPixel(transform.position);
-            }
+            if (pixelPerfectCamera != null) transform.position = pixelPerfectCamera.RoundToPixel(transform.position);
         }
 
         void Awake()

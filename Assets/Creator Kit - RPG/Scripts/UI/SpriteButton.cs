@@ -8,12 +8,16 @@ namespace RPGM.UI
 {
     public class SpriteButton : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
     {
-        public SpriteRenderer spriteRenderer;
-        public TextMeshPro textMeshPro;
+        // public SpriteRenderer spriteRenderer;
+        public TextMeshProUGUI textMeshPro;
 
-        public Vector2 Size => spriteRenderer.size;
+        // public Vector2 Size => spriteRenderer.size;
         public event System.Action onClickEvent;
 
+
+        void Awake() {
+            Reset();
+        }
         public void Enter()
         {
             textMeshPro.color = Color.yellow;
@@ -43,8 +47,8 @@ namespace RPGM.UI
 
         void Reset()
         {
-            spriteRenderer = GetComponent<SpriteRenderer>();
-            textMeshPro = GetComponentInChildren<TextMeshPro>();
+            // spriteRenderer = GetComponent<SpriteRenderer>();
+            textMeshPro = GetComponentInChildren<TextMeshProUGUI>();
         }
     }
 }

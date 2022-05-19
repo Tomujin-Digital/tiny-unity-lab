@@ -27,7 +27,6 @@ namespace RPGM.Events
             else
                 ci = conversation.Get(conversationItemKey);
 
-
             //if this item contains an unstarted quest, schedule a start quest event for the quest.
             if (ci.quest != null)
             {
@@ -48,16 +47,20 @@ namespace RPGM.Events
             var sr = gameObject.GetComponent<SpriteRenderer>();
             if (sr != null)
             {
-                position += new Vector3(0, 2 * sr.size.y + (ci.options.Count == 0 ? 0.1f : 0.2f), 0);
+                position += new Vector3(
+                    0,
+                    2 * sr.size.y + (ci.options.Count == 0 ? 0.1f : 0.2f),
+                    0
+                );
             }
 
             //show the dialog
-            model.dialog.Show(ci.text);
+            model.dialog.SetText(ci.text);
             var animator = gameObject.GetComponent<Animator>();
             if (animator != null)
             {
                 animator.SetBool("Talk", true);
-                var ev = Schedule.Add<StopTalking>(2);
+                var ev = Schedule.Add<StopTalking>(1);
                 ev.animator = animator;
             }
 
@@ -110,12 +113,10 @@ namespace RPGM.Events
                         Debug.LogError($"No conversation with ID:{next}");
                     }
                 };
-
             }
 
             //if conversation has an icon associated, this will display it.
             model.dialog.SetIcon(ci.image);
         }
-
     }
 }

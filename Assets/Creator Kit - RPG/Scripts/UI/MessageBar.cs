@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RPGM.UI
 {
     public class MessageBar : MonoBehaviour
     {
-        public TextMeshPro textMeshPro;
-        SpriteRenderer spriteRenderer;
+        public TextMeshProUGUI textMeshPro;
+        Image spriteRenderer;
 
         static MessageBar instance;
         Queue<string> messages = new Queue<string>();
@@ -16,7 +17,7 @@ namespace RPGM.UI
         void Awake()
         {
             instance = this;
-            spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer = GetComponent<Image>();
         }
 
         IEnumerator Start()
@@ -29,17 +30,17 @@ namespace RPGM.UI
                 {
                     textMeshPro.text = messages.Dequeue();
                     spriteRenderer.color = new Color(1, 1, 1, 0);
-                    textMeshPro.color = new Color(1, 1, 1, 0);
+                    textMeshPro.color = new Color(0, 0, 0, 0);
                     var T = 0f;
                     while (T < 1)
                     {
                         T += Time.deltaTime;
                         spriteRenderer.color = new Color(1, 1, 1, T);
-                        textMeshPro.color = new Color(1, 1, 1, T);
+                        textMeshPro.color = new Color(0, 0, 0, T);
                         yield return null;
                     }
                     spriteRenderer.color = Color.white;
-                    textMeshPro.color = Color.white;
+                    textMeshPro.color = Color.black;
                     yield return delay;
                     while (T > 0)
                     {

@@ -222,7 +222,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3125252667742295458, guid: bacfaa3f86f4534449d88a7c609cb447,
+          type: 3}
         m_TargetAssemblyTypeName: RPGM.UI.DialogBarController, Assembly-CSharp
         m_MethodName: ShowAndHide
         m_Mode: 1

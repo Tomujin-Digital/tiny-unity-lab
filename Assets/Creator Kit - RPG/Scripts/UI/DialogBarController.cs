@@ -13,31 +13,52 @@ namespace RPGM.UI
         SpriteButton[] buttons;
         public System.Action<int> onButton;
         private GameObject dialogBar;
-        public TextMeshPro dialogBarText;
+        public TextMeshProUGUI dialogBarText;
         private GameObject dialogIcon;
         private GameObject[] dialogButtons;
         public int selectedButton = 0;
         public int buttonCount = 0;
-        public GameObject dialogbn;
         private bool showed = false;
+        public string conversationItemKey;
+        public SpriteUIElement spriteUIElement;
+        public Camera mainCamera;
 
         private void Awake()
         {
             dialogBar = GameObject.Find("DialogBar");
             dialogIcon = GameObject.Find("Icon");
             dialogButtons = GameObject.FindGameObjectsWithTag("DialogButton");
-            dialogBarText = GameObject.Find("ConversationText").GetComponent<TextMeshPro>();
+            dialogBarText = GameObject.Find("ConversationText").GetComponent<TextMeshProUGUI>();
 
-            print(dialogBarText);
-            if (dialogIcon != null) dialogIcon.SetActive(false);
-            if(dialogButtons != null) {
-                foreach(GameObject button in dialogButtons) {
-                    button.SetActive(false);
-                }
-            };
+            ButtonSetClean();
+
+            dialogButtons[0].GetComponentInChildren<SpriteButton>().onClickEvent += () =>
+                OnButton(0);
+            dialogButtons[1].GetComponentInChildren<SpriteButton>().onClickEvent += () =>
+                OnButton(1);
+            dialogButtons[2].GetComponentInChildren<SpriteButton>().onClickEvent += () =>
+                OnButton(2);
+            spriteUIElement = GetComponent<SpriteUIElement>();
+            mainCamera = Camera.main;
+
+            if (dialogIcon != null)
+                dialogIcon.SetActive(false);
             dialogBar.SetActive(false);
         }
 
+        public void ButtonSetClean()
+        {
+            foreach (GameObject button in dialogButtons)
+            {
+                button.SetActive(false);
+            }
+        }
+
+        public void SetText(string text)
+        {
+            dialogBarText.color = Color.Lerp(Color.clear, Color.black, 0.5f);
+            dialogBarText.text = text;
+        }
 
         public void ShowAndHide()
         {
@@ -45,24 +66,23 @@ namespace RPGM.UI
             showed = !showed;
         }
 
-
         public void Show(string text)
         {
             dialogBar.SetActive(true);
-            print(dialogBarText.text);
+            SetText(text);
         }
-
 
         public void FocusButton(int direction)
         {
-            // if (buttonCount > 0)
-            // {
-            //     if (selectedButton < 0) selectedButton = 0;
-            //     buttons[selectedButton].Exit();
-            //     selectedButton += direction;
-            //     selectedButton = Mathf.Clamp(selectedButton, 0, buttonCount - 1);
-            //     buttons[selectedButton].Enter();
-            // }
+            if (buttonCount > 0)
+            {
+                if (selectedButton < 0)
+                    selectedButton = 0;
+                dialogButtons[selectedButton].GetComponentInChildren<SpriteButton>().Exit();
+                selectedButton += direction;
+                selectedButton = Mathf.Clamp(selectedButton, 0, buttonCount - 1);
+                dialogButtons[selectedButton].GetComponentInChildren<SpriteButton>().Enter();
+            }
         }
 
         public void SelectActiveButton()
@@ -72,9 +92,10 @@ namespace RPGM.UI
                 if (selectedButton >= 0)
                 {
                     model.input.ChangeState(InputController.State.CharacterControl);
-                    buttons[selectedButton].Click();
+                    dialogButtons[selectedButton].GetComponentInChildren<SpriteButton>().Click();
                     selectedButton = -1;
                 }
+                // Hide();
             }
             else
             {
@@ -87,11 +108,13 @@ namespace RPGM.UI
         {
             UserInterfaceAudio.OnHideDialog();
             dialogBar.SetActive(false);
+            dialogIcon.SetActive(false);
+            ButtonSetClean();
         }
 
         public void SetIcon(Sprite icon)
         {
-            print("set icon");
+            icon = dialogIcon.GetComponent<Image>().sprite = icon;
         }
 
         void OnButton(int index)
@@ -103,9 +126,9 @@ namespace RPGM.UI
 
         public void SetButton(int index, string text)
         {
-            print(text);
-            // d.SetButtonText(index, text);
-            // buttonCount = Mathf.Max(buttonCount, index + 1);
+            dialogButtons[index].SetActive(true);
+            dialogButtons[index].GetComponentInChildren<TextMeshProUGUI>().text = text;
+            buttonCount = Mathf.Max(buttonCount, index + 1);
         }
     }
 }

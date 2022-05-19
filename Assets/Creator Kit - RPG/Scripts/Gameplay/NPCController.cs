@@ -1,6 +1,7 @@
 using RPGM.Core;
 using RPGM.Gameplay;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RPGM.Gameplay
 {
@@ -19,14 +20,18 @@ namespace RPGM.Gameplay
 
         void OnEnable()
         {
+            infoButton = GetComponentInChildren<Button>();
+            infoButton.gameObject.SetActive(false);
             quests = gameObject.GetComponentsInChildren<Quest>();
         }
 
         bool convoIsRead = false;
+        public Button infoButton;
 
       
         public void OnCollisionEnter2D(Collision2D collision)
         {
+            infoButton.gameObject.SetActive(true);
             if (convoIsRead == false)
             {
                 var c = GetConversation();
@@ -38,9 +43,14 @@ namespace RPGM.Gameplay
                     ev.gameObject = gameObject;
                     ev.conversationItemKey = "";
                 }
-                convoIsRead = true; 
+                // convoIsRead = true; 
             }
             
+        }
+        public void OnCollisionExit2D(Collision2D collision)
+        {
+            infoButton.gameObject.SetActive(false);
+            model.dialog.Hide();
         }
 
         public void CompleteQuest(Quest q)
