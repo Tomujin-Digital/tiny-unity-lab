@@ -22,17 +22,25 @@ namespace RPGM.Gameplay
             quests = gameObject.GetComponentsInChildren<Quest>();
         }
 
+        bool convoIsRead = false;
+
+      
         public void OnCollisionEnter2D(Collision2D collision)
         {
-            var c = GetConversation();
-            if (c != null)
+            if (convoIsRead == false)
             {
-                var ev = Schedule.Add<Events.ShowConversation>();
-                ev.conversation = c;
-                ev.npc = this;
-                ev.gameObject = gameObject;
-                ev.conversationItemKey = "";
+                var c = GetConversation();
+                if (c != null)
+                {
+                    var ev = Schedule.Add<Events.ShowConversation>();
+                    ev.conversation = c;
+                    ev.npc = this;
+                    ev.gameObject = gameObject;
+                    ev.conversationItemKey = "";
+                }
+                convoIsRead = true; 
             }
+            
         }
 
         public void CompleteQuest(Quest q)

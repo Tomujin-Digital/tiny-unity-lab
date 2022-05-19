@@ -18,6 +18,8 @@ namespace RPGM.UI
         private GameObject[] dialogButtons;
         public int selectedButton = 0;
         public int buttonCount = 0;
+        public GameObject dialogbn;
+        private bool showed = false;
 
         private void Awake()
         {
@@ -36,11 +38,20 @@ namespace RPGM.UI
             dialogBar.SetActive(false);
         }
 
+
+        public void ShowAndHide()
+        {
+            dialogBar.SetActive(!showed);
+            showed = !showed;
+        }
+
+
         public void Show(string text)
         {
             dialogBar.SetActive(true);
             print(dialogBarText.text);
         }
+
 
         public void FocusButton(int direction)
         {

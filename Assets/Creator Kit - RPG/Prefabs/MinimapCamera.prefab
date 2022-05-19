@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4706493977671505688}
   - component: {fileID: 4706493977671505691}
-  - component: {fileID: 4706493977671505690}
   - component: {fileID: 4706493977671505689}
   m_Layer: 0
   m_Name: MinimapCamera
@@ -61,7 +60,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 6
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -77,14 +76,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &4706493977671505690
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4706493977671505685}
-  m_Enabled: 1
 --- !u!114 &4706493977671505689
 MonoBehaviour:
   m_ObjectHideFlags: 0
