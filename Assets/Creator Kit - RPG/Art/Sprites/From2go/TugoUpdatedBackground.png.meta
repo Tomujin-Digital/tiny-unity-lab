@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 97f7be320415141c9a36a1ccf48dedae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_2
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1882
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021b6ae4fd15348cf8f1fb0cbde2b52e
+      internalID: 725739159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_4
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1818
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb674a5cdb8414b90a9e46fae66373f5
+      internalID: 1419111900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_6
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1754
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee08231d74fc4e598f8498da405db78
+      internalID: 1021477100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_8
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1690
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a616852fd6194e26af10f8e20cde9ab
+      internalID: -2039633278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_10
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1626
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27665ae2a0204139a1ac31f14064afa
+      internalID: 1132626978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_12
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1562
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e8648e67785429ab51ff27d951421f
+      internalID: 1722849851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_14
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1498
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c829446bd020c4678b9ad1a80e3894e5
+      internalID: 436853441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_16
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1434
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9648fe614c3174fb59ad6508b27c9483
+      internalID: 868566019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_18
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7885c280f2244ddacc8227712ad75c
+      internalID: -2095636933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_20
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1306
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104a34fbec5cf439fbed114f284ea57f
+      internalID: 1688844794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_22
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1242
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492ef65eb2c604a218fc2b95517d46d0
+      internalID: -1471781777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_24
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857790ac640a9416cbf09159c2408e7b
+      internalID: -1738636546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_26
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1114
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380b70c6c62024190a7667d8e9345936
+      internalID: 454941501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_28
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1050
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f0baa821b2c4c0e8fbf169d2907d20
+      internalID: 1313117455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_30
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 986
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa73fcda1a1849c5b05bb09d289f42e
+      internalID: 1709243142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_32
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 922
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42419fa2876b5497aaa6f905443a871f
+      internalID: 505611354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_34
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 858
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fc0e92f422247dfa806b6bb567cce8
+      internalID: 941466165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_36
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 794
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a898dee7d6b4871ba22181627d5697
+      internalID: -2091794668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_38
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 730
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751e9f7be7ffa400cb53a000bc26c8b6
+      internalID: -1104107390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_40
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 666
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bff8ff985684b9bb6b10dfcef8bbab
+      internalID: -1488890348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_42
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 602
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178a0ab834713438eb9e3549c5ca9360
+      internalID: -1294467932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_44
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 538
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bb0294e243c46a092d153d23488e2f
+      internalID: 674790153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_46
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 474
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916211888aa9e4b55b05264900ab081f
+      internalID: 559307916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_48
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 410
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e53d1fc6740c45dba8a4d910240ae95
+      internalID: -1338454688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_50
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 346
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc6292589f024cb2a7aac3df7875419
+      internalID: -1404045923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedBackground_0
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 282
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463e774d6ed26445e8b24834f7d07f83
+      internalID: -819953269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3feaccb5aa6024105aa7a645a81be7ec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TugoUpdatedBackground_51: -2104839079
+      TugoUpdatedBackground_13: -1252002323
+      TugoUpdatedBackground_6: 1021477100
+      TugoUpdatedBackground_49: -40849549
+      TugoUpdatedBackground_48: -1338454688
+      TugoUpdatedBackground_21: -1520061705
+      TugoUpdatedBackground_3: 244728846
+      TugoUpdatedBackground_8: -2039633278
+      TugoUpdatedBackground_11: 1402132492
+      TugoUpdatedBackground_23: -1911478877
+      TugoUpdatedBackground_41: -436343714
+      TugoUpdatedBackground_38: -1104107390
+      TugoUpdatedBackground_37: -330535931
+      TugoUpdatedBackground_32: 505611354
+      TugoUpdatedBackground_26: 454941501
+      TugoUpdatedBackground_22: -1471781777
+      TugoUpdatedBackground_17: 959907436
+      TugoUpdatedBackground_42: -1294467932
+      TugoUpdatedBackground_7: -135140313
+      TugoUpdatedBackground_29: 1524447095
+      TugoUpdatedBackground_15: -1220415136
+      TugoUpdatedBackground_30: 1709243142
+      TugoUpdatedBackground_40: -1488890348
+      TugoUpdatedBackground_5: -1804999950
+      TugoUpdatedBackground_2: 725739159
+      TugoUpdatedBackground_10: 1132626978
+      TugoUpdatedBackground_44: 674790153
+      TugoUpdatedBackground_4: 1419111900
+      TugoUpdatedBackground_16: 868566019
+      TugoUpdatedBackground_12: 1722849851
+      TugoUpdatedBackground_25: 1013694867
+      TugoUpdatedBackground_35: -133392697
+      TugoUpdatedBackground_46: 559307916
+      TugoUpdatedBackground_52: 1831154263
+      TugoUpdatedBackground_0: -819953269
+      TugoUpdatedBackground_18: -2095636933
+      TugoUpdatedBackground_31: -1283303911
+      TugoUpdatedBackground_19: 1610505838
+      TugoUpdatedBackground_24: -1738636546
+      TugoUpdatedBackground_9: -1319928642
+      TugoUpdatedBackground_47: -1352144534
+      TugoUpdatedBackground_27: 1999591758
+      TugoUpdatedBackground_1: 801803844
+      TugoUpdatedBackground_43: -2030246065
+      TugoUpdatedBackground_50: -1404045923
+      TugoUpdatedBackground_39: -799943349
+      TugoUpdatedBackground_34: 941466165
+      TugoUpdatedBackground_14: 436853441
+      TugoUpdatedBackground_53: 1641216904
+      TugoUpdatedBackground_45: -687562921
+      TugoUpdatedBackground_36: -2091794668
+      TugoUpdatedBackground_20: 1688844794
+      TugoUpdatedBackground_28: 1313117455
+      TugoUpdatedBackground_33: -1549969534
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
