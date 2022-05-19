@@ -1,8 +1,9 @@
 using System;
 using RPGM.Core;
 using RPGM.Gameplay;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+// using UnityEngine.UI;
 
 namespace RPGM.UI
 {
@@ -11,7 +12,8 @@ namespace RPGM.UI
         GameModel model = Schedule.GetModel<GameModel>();
         SpriteButton[] buttons;
         public System.Action<int> onButton;
-        private GameObject dialogBackground;
+        private GameObject dialogBar;
+        public TextMeshPro dialogBarText;
         private GameObject dialogIcon;
         private GameObject[] dialogButtons;
         public int selectedButton = 0;
@@ -20,27 +22,25 @@ namespace RPGM.UI
 
         private void Awake()
         {
-            dialogBackground = GameObject.Find("DialogBar");
-
+            dialogBar = GameObject.Find("DialogBar");
             dialogIcon = GameObject.Find("Icon");
             dialogButtons = GameObject.FindGameObjectsWithTag("DialogButton");
+            dialogBarText = GameObject.Find("ConversationText").GetComponent<TextMeshPro>();
+
+            print(dialogBarText);
             if (dialogIcon != null) dialogIcon.SetActive(false);
             if(dialogButtons != null) {
                 foreach(GameObject button in dialogButtons) {
                     button.SetActive(false);
                 }
             };
-            dialogBackground.SetActive(false);
+            dialogBar.SetActive(false);
         }
 
         public void Show(string text)
         {
-            dialogBackground.SetActive(true);
-            // d.SetText(text);
-            // SetPosition(position);
-            // model.input.ChangeState(InputController.State.DialogControl);
-            // buttonCount = 0;
-            // selectedButton = -1;
+            dialogBar.SetActive(true);
+            print(dialogBarText.text);
         }
 
         public void ShowAndHide() {
@@ -90,7 +90,7 @@ namespace RPGM.UI
         public void Hide()
         {
             UserInterfaceAudio.OnHideDialog();
-            dialogBackground.SetActive(false);
+            dialogBar.SetActive(false);
         }
 
         public void SetIcon(Sprite icon)
