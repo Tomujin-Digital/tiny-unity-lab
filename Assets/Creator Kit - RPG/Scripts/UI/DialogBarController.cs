@@ -16,6 +16,7 @@ namespace RPGM.UI
         private GameObject[] dialogButtons;
         public int selectedButton = 0;
         public int buttonCount = 0;
+        private bool showed = false;
 
         private void Awake()
         {
@@ -41,6 +42,20 @@ namespace RPGM.UI
             // buttonCount = 0;
             // selectedButton = -1;
         }
+
+        public void ShowAndHide() {
+
+            if (showed == false)
+            {
+                Show("hahah");
+            }
+            else
+            {
+                Hide();
+            }
+            showed = !showed;
+        }
+
 
         public void FocusButton(int direction)
         {
