@@ -493,7 +493,7 @@ TextureImporter:
         width: 132
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,6 +501,153 @@ TextureImporter:
       bones: []
       spriteID: 3eee42605e75d4f70b0fc7f0f4ff7548
       internalID: 1411712781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedAssets_18
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a86a7cf7ff2748b2a11c312ad2c0e0e
+      internalID: 1437628586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedAssets_19
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f250fbcb1410148d1b8f76984e3c547d
+      internalID: -1372785301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedAssets_20
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c39e22a089a47b0bec9ee523d5465c
+      internalID: -1129152674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedAssets_21
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 92
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089e73e53460548f091e7b9ee79fb93e
+      internalID: -1273858955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedAssets_22
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5a3c0a6762948908d4cc93e5cec547
+      internalID: -1144863652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedAssets_23
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a67818406be48dcb06d2d7f654fcfc
+      internalID: -425508287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TugoUpdatedAssets_24
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 28
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5087282f0cf4c8b87845b7bf03f990
+      internalID: 245794784
       vertices: []
       indices: 
       edges: []
@@ -521,8 +668,11 @@ TextureImporter:
       TugoUpdatedAssets_13: 438755666
       TugoUpdatedAssets_7: -865144169
       TugoUpdatedAssets_14: -1546899265
+      TugoUpdatedAssets_20: -1129152674
       TugoUpdatedAssets_4: -237858236
+      TugoUpdatedAssets_19: -1372785301
       TugoUpdatedAssets_10: 106735320
+      TugoUpdatedAssets_22: -1144863652
       TugoUpdatedAssets_15: -1486694381
       TugoUpdatedAssets_0: -321126071
       TugoUpdatedAssets_5: 1358225291
@@ -530,9 +680,13 @@ TextureImporter:
       TugoUpdatedAssets_2: -1438260399
       TugoUpdatedAssets_12: 142457842
       TugoUpdatedAssets_3: 1260739600
+      TugoUpdatedAssets_24: 245794784
       TugoUpdatedAssets_17: 1411712781
+      TugoUpdatedAssets_23: -425508287
       TugoUpdatedAssets_6: -1661288664
+      TugoUpdatedAssets_18: 1437628586
       TugoUpdatedAssets_8: 1089904597
+      TugoUpdatedAssets_21: -1273858955
       TugoUpdatedAssets_11: -1915272439
   spritePackingTag: 
   pSDRemoveMatte: 0
