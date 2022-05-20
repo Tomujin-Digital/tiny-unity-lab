@@ -24,22 +24,22 @@ public class MoveSystem : MonoBehaviour
 
     void Update()
     {
-
-        if (Input.touchCount > 0)
+        if (finish == false)
         {
-            print("listening");
-            Touch touch = Input.GetTouch(0);
-            Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+            if (moving)
+            {
+                Vector3 mousePos;
 
+                mousePos = Input.mousePosition;
+                mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-            this.gameObject.transform.localPosition = new Vector3(touchPos.x - startPosX, touchPos.y - startPosY, this.gameObject.transform.localPosition.z);
+                this.gameObject.transform.localPosition = new Vector3(mousePos.x - startPosX, mousePos.y - startPosY, this.gameObject.transform.localPosition.z);
 
+            }
         }
-
     }
     private void OnMouseDown()
     {
-        print("okay");
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos;
