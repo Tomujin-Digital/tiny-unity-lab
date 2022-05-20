@@ -7,12 +7,12 @@ public class SceneTransition : MonoBehaviour
 {
 
     public string ScreenName;
-    public Vector2 PlayerPosition;
-    public VectorValue playerStorage;
+    public Transform PlayerPosition;
+    // public VectorValue playerStorage;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player")) {
-            playerStorage.initialValue = PlayerPosition;
+            // playerStorage.initialValue = PlayerPosition.position;
             SceneManager.LoadSceneAsync(ScreenName);
             
         }
