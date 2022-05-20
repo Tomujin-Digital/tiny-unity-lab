@@ -9,6 +9,6 @@ public class ShapePuzzleGameControl : MonoBehaviour
     private GameObject winText;
 
     void Update(){
-      if(ShapePuzzle.solutionCount >= 3) SceneManager.LoadScene("StudyScene");
+      if(ShapePuzzle.solutionCount >= 10) SceneManager.LoadScene("StudyScene");
     }
 }

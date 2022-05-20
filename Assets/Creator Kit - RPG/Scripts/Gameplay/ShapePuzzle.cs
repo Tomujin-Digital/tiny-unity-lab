@@ -18,6 +18,7 @@ public class ShapePuzzle : MonoBehaviour
     void Start()
     {
         initialPosition = transform.position;
+        shapePalace = GetComponentInParent<Transform>();
     }
 
     // Update is called once per frame

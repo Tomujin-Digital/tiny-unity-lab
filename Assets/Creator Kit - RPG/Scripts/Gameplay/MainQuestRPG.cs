@@ -2,21 +2,19 @@ using System.Collections.Generic;
 using RPGM.Core;
 using RPGM.Gameplay;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class MainQuestRPG: MonoBehaviour
+public class MainQuestRPG : MonoBehaviour
 {
     GameModel model = Schedule.GetModel<GameModel>();
 
     private void Start() { }
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        foreach(var i in model.InventoryItems)
+        if (collision.CompareTag("Player") && model.HasInventoryItem("ArtNoColor"))
         {
-            if(model.GetInventoryCount(i) > 0)
-            {
-                Debug.Log(model.GetInventorySprite(i));
-            }
+            SceneManager.LoadScene("PuzzleShapeScene");;
         }
     }
 }
