@@ -8,7 +8,7 @@ public class SceneTransition : MonoBehaviour
 
     public string ScreenName;
     public Transform PlayerPosition;
-    // public VectorValue playerStorage;
+    public VectorValue playerStorage;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player")) {
