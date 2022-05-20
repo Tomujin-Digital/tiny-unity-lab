@@ -20,7 +20,7 @@ namespace RPGM.Gameplay
 
         GameModel model = Schedule.GetModel<GameModel>();
         public bool flipX = false;
-        // public VectorValue StartingPosition;
+        public VectorValue StartingPosition;
 
         new Rigidbody2D rigidbody2D;
         SpriteRenderer spriteRenderer;
@@ -39,7 +39,7 @@ namespace RPGM.Gameplay
         float velocity;
         private void Start()
         {
-            // transform.position = StartingPosition.initialValue;
+            transform.position = new Vector3(StartingPosition.initialValue.x, StartingPosition.initialValue.y, 0);
         }
 
         void IdleState()

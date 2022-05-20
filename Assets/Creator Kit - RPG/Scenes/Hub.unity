@@ -1453,8 +1453,15 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 5843619227862883035, guid: 74b5c6b26f0fc4028b9aac1a7a36767d,
-        type: 3}
+    - target: {fileID: 3689464399925779486, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 259338445}
+    - target: {fileID: 3689464399925779486, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowAndHide
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843619227862883035, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
@@ -2058,7 +2065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScreenName: SchoolsMap
-  PlayerPosition: {fileID: 0}
+  PlayerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 0}
 --- !u!61 &557917728
 BoxCollider2D:
@@ -11898,8 +11905,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScreenName: StudyScene
-  PlayerPosition: {fileID: 0}
-  playerStorage: {fileID: 0}
+  PlayerPosition: {x: -15, y: -8}
+  playerStorage: {fileID: 11400000, guid: 92a6a8ba2f8ad4ca580563a28f4f9477, type: 2}
 --- !u!70 &1507664205
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
