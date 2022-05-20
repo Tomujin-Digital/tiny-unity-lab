@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 2b561466e1e7e41669facd12570165a1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TasFloor_0
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1049
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9182b1d513d654b1483af810195cf2fe
+      internalID: -1209274127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_1
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 968
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b9663187a5a487a9babd8bb2748df3
+      internalID: -488364137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_2
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 968
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043455516414c4271abcc12e42478887
+      internalID: 415686023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_3
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 968
+        width: 64
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb078e56d00f84b62976e58f33dea3a8
+      internalID: -1250700384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_10
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1306
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576bacc5e18454e838066c54e86d532e
+      internalID: -1268969042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_11
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1306
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805c825a43df848e88e5d3c71ea9364a
+      internalID: -552563403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_12
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1306
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8012495839b46e5aaf3d4db3885d16
+      internalID: -337162884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_18
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1242
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59003a7385e41fd8a4817d4891bc92
+      internalID: -1589936482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_19
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1242
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777fc4e2ede584791a102ace34ec852a
+      internalID: 1105840371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_20
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1242
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1e348bc88ba432295702d3abf5b894
+      internalID: 846597855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_26
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792c87bbcb58348c086e754c564dca00
+      internalID: 230584906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_27
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1cf7f6cd0264cf59ad326d02361c48
+      internalID: 451967960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_28
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1178
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd9aeea384f84002bb2cc24f6d76efc
+      internalID: 543876286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_34
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1113
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef24413a5b6954cd7a3dc1c6cdd1d72a
+      internalID: 597872396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_35
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1113
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf18d3988c8fb457daa04f1cb9589720
+      internalID: 2124084725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_36
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1111
+        width: 64
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930d77608d7da4a6caacd7e6ab719b55
+      internalID: 409212171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_42
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1050
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5802aa7683f4e3d82f9ded38aa1a77
+      internalID: 1635951330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_43
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 1050
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5e72d2bf58e4129bef5f77f01b91a6
+      internalID: 1315556166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_44
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1114
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7ac884415804b6c99dcb4836f05bd6
+      internalID: 787842126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_50
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 986
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02d20574b0ad41e9aebfd3a8d1f292c
+      internalID: -69937950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_51
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 986
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c85bf7d43eb4c50adbd71782aad030
+      internalID: 580482400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TasFloor_52
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 986
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6be06b2768c40599517fc4d8fda462
+      internalID: 413021077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5386bce70be1b43e28344e4d85479cba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TasFloor_11: -552563403
+      TasFloor_16: 22562376
+      TasFloor_40: 1562798262
+      TasFloor_2: 415686023
+      TasFloor_39: -666199394
+      TasFloor_75: 388504958
+      TasFloor_3: -1250700384
+      TasFloor_41: 391780235
+      TasFloor_24: -2053003725
+      TasFloor_12: -337162884
+      TasFloor_15: 1272852405
+      TasFloor_58: -1629884801
+      TasFloor_74: 2106816638
+      TasFloor_62: 1558042791
+      TasFloor_0: -1209274127
+      TasFloor_4: -504311188
+      TasFloor_66: 51425781
+      TasFloor_1: -488364137
+      TasFloor_10: -1268969042
+      TasFloor_46: -352626159
+      TasFloor_71: 287673370
+      TasFloor_52: 413021077
+      TasFloor_17: 1338285727
+      TasFloor_30: 1723809011
+      TasFloor_8: 1957369365
+      TasFloor_48: 990539343
+      TasFloor_36: 409212171
+      TasFloor_56: 974260537
+      TasFloor_60: -996847421
+      TasFloor_19: 1105840371
+      TasFloor_18: -1589936482
+      TasFloor_21: 409547790
+      TasFloor_70: 2044571963
+      TasFloor_34: 597872396
+      TasFloor_65: 1556115873
+      TasFloor_9: 68529094
+      TasFloor_29: -1605417036
+      TasFloor_72: 1237391280
+      TasFloor_25: -361492627
+      TasFloor_35: 2124084725
+      TasFloor_44: 787842126
+      TasFloor_7: 1166466394
+      TasFloor_51: 580482400
+      TasFloor_61: -76018756
+      TasFloor_57: -1596397720
+      TasFloor_6: -1545184579
+      TasFloor_31: -1980860822
+      TasFloor_68: -179132790
+      TasFloor_37: -639906382
+      TasFloor_45: -1794287079
+      TasFloor_55: -1756900969
+      TasFloor_53: -2112573106
+      TasFloor_23: -1463592414
+      TasFloor_69: 894696089
+      TasFloor_59: -373365784
+      TasFloor_43: 1315556166
+      TasFloor_20: 846597855
+      TasFloor_5: 1522004839
+      TasFloor_47: 2099730115
+      TasFloor_64: 1181999270
+      TasFloor_50: -69937950
+      TasFloor_67: -616070389
+      TasFloor_49: -1306662194
+      TasFloor_73: 133523849
+      TasFloor_42: 1635951330
+      TasFloor_32: 321188844
+      TasFloor_13: 966197442
+      TasFloor_38: 614193844
+      TasFloor_27: 451967960
+      TasFloor_26: 230584906
+      TasFloor_33: 1085668897
+      TasFloor_54: 90343273
+      TasFloor_28: 543876286
+      TasFloor_22: 796579942
+      TasFloor_14: -65666285
+      TasFloor_63: -974036213
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
