@@ -114,7 +114,8 @@ namespace RPGM.UI
 
         public void SetIcon(Sprite icon)
         {
-            icon = dialogIcon.GetComponent<Image>().sprite = icon;
+            dialogIcon.GetComponent<Image>().sprite = icon;
+            dialogIcon.SetActive(true);
         }
 
         void OnButton(int index)
