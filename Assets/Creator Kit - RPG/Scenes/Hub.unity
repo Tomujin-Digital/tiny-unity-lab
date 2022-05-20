@@ -1449,6 +1449,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3689464399925779486, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 259338445}
+    - target: {fileID: 3689464399925779486, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowAndHide
+      objectReference: {fileID: 0}
     - target: {fileID: 5843619227862883035, guid: 74b5c6b26f0fc4028b9aac1a7a36767d, type: 3}
       propertyPath: m_SortingOrder
       value: 5
@@ -1991,7 +1999,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScreenName: SchoolsMap
-  PlayerPosition: {fileID: 0}
+  PlayerPosition: {x: 0, y: 0}
+  playerStorage: {fileID: 0}
 --- !u!61 &557917728
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3342,7 +3351,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 20
-      m_TileSpriteIndex: 47
+      m_TileSpriteIndex: 48
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3452,7 +3461,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 28
-      m_TileSpriteIndex: 31
+      m_TileSpriteIndex: 47
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3472,7 +3481,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 18
-      m_TileSpriteIndex: 27
+      m_TileSpriteIndex: 31
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3522,7 +3531,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 24
-      m_TileSpriteIndex: 26
+      m_TileSpriteIndex: 27
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3532,7 +3541,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 27
-      m_TileSpriteIndex: 25
+      m_TileSpriteIndex: 26
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3542,7 +3551,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 21
-      m_TileSpriteIndex: 24
+      m_TileSpriteIndex: 25
       m_TileMatrixIndex: 1
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4673,14 +4682,14 @@ Tilemap:
     m_Data: {fileID: 2089483795, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -1409041348, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -1992399782, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1380518904, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1057669579, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 750459908, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: -1512945461, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 2
@@ -4688,7 +4697,7 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 1913076841, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -437943301, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
+    m_Data: {fileID: 750459908, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -718827019, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 2
@@ -4720,9 +4729,9 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: -881121470, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: -437943301, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
+  - m_RefCount: 1
     m_Data: {fileID: 26750356, guid: 24814ddf7e3bc48518ce108c0ca28013, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: 289246256, guid: 435df61b4713046a8953b4b08cd5280c, type: 3}
   - m_RefCount: 1
@@ -11740,7 +11749,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScreenName: StudyScene
-  PlayerPosition: {fileID: 0}
+  PlayerPosition: {x: -14, y: -14}
+  playerStorage: {fileID: 11400000, guid: 92a6a8ba2f8ad4ca580563a28f4f9477, type: 2}
 --- !u!70 &1507664205
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
