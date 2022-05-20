@@ -11749,7 +11749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScreenName: StudyScene
-  PlayerPosition: {x: -14, y: -14}
+  PlayerPosition: {x: -15, y: -8}
   playerStorage: {fileID: 11400000, guid: 92a6a8ba2f8ad4ca580563a28f4f9477, type: 2}
 --- !u!70 &1507664205
 CapsuleCollider2D:
