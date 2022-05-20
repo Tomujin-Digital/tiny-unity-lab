@@ -12,9 +12,9 @@ public class MainQuestRPG : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && model.HasInventoryItem("ArtNoColor"))
+        if (collision.CompareTag("Player") && model.HasInventoryItem("Square") && model.HasInventoryItem("Triangle") && model.HasInventoryItem("Circle"))
         {
-            SceneManager.LoadScene("PuzzleShapeScene");;
+            SceneManager.LoadScene("PuzzleDraw");;
         }
     }
 }
