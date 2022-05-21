@@ -36,8 +36,7 @@ namespace RPGM.UI
                 OnButton(0);
             dialogButtons[1].GetComponentInChildren<SpriteButton>().onClickEvent += () =>
                 OnButton(1);
-            dialogButtons[2].GetComponentInChildren<SpriteButton>().onClickEvent += () =>
-                OnButton(2);
+
             spriteUIElement = GetComponent<SpriteUIElement>();
             mainCamera = Camera.main;
 

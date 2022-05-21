@@ -39,7 +39,7 @@ namespace RPGM.Gameplay
         float velocity;
         private void Start()
         {
-            transform.position = new Vector3(StartingPosition.initialValue.x, StartingPosition.initialValue.y, 0);
+            if(StartingPosition != null) transform.position = new Vector3(StartingPosition.initialValue.x, StartingPosition.initialValue.y, 0);
         }
 
         void IdleState()

@@ -31,7 +31,6 @@ namespace RPGM.Gameplay
       
         public void OnCollisionEnter2D(Collision2D collision)
         {
-            infoButton.gameObject.SetActive(true);
             if (convoIsRead == false)
             {
                 var c = GetConversation();
@@ -43,13 +42,14 @@ namespace RPGM.Gameplay
                     ev.gameObject = gameObject;
                     ev.conversationItemKey = "";
                 }
-                // convoIsRead = true; 
+                infoButton.gameObject.SetActive(true);
+                convoIsRead = true; 
             }
             
         }
         public void OnCollisionExit2D(Collision2D collision)
         {
-            infoButton.gameObject.SetActive(false);
+            // infoButton.gameObject.SetActive(false);
             model.dialog.Hide();
         }
 

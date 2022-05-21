@@ -55,22 +55,17 @@ namespace RPGM.Events
             }
 
             //show the dialog
-            model.dialog.SetText(ci.text);
+            model.dialog.Show(ci.text);
             var animator = gameObject.GetComponent<Animator>();
-            if (animator != null)
-            {
-                animator.SetBool("Talk", true);
-                var ev = Schedule.Add<StopTalking>(1);
-                ev.animator = animator;
-            }
+         
 
-            if (ci.audio != null)
-            {
-                UserInterfaceAudio.PlayClip(ci.audio);
-            }
+            // if (ci.audio != null)
+            // {
+            //     UserInterfaceAudio.PlayClip(ci.audio);
+            // }
 
             //speak some gibberish at two speech syllables per word.
-            UserInterfaceAudio.Speak(gameObject.GetInstanceID(), ci.text.Split(' ').Length * 2, 1);
+            // UserInterfaceAudio.Speak(gameObject.GetInstanceID(), ci.text.Split(' ').Length * 2, 1);
 
             //if this conversation item has an id, register it in the model.
             if (!string.IsNullOrEmpty(ci.id))

@@ -66,7 +66,7 @@ namespace RPGM.Gameplay
                 if (requiredStoryItem != null)
                     if (!model.HasSeenStoryItem(requiredStoryItem.ID))
                         return;
-            print(text);
+   
             if (text != string.Empty)
                 MessageBar.Show(text);
             if (ID != string.Empty)

@@ -66,6 +66,7 @@ namespace RPGM.UI
 
         void DialogControl()
         {
+            print("DialogControl");
             model.player.nextMoveCommand = Vector3.zero;
             if (Input.GetKeyDown(KeyCode.LeftArrow))
                 model.dialog.FocusButton(-1);

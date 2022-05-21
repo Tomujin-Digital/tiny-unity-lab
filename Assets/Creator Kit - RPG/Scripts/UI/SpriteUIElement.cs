@@ -24,7 +24,6 @@ namespace RPGM.UI
         PixelPerfectCamera pixelPerfectCamera;
         Vector2 animationOffset;
 
-        float t = 0;
         float direction = 0;
 
         [ContextMenu("Show")]
