@@ -50,7 +50,7 @@ namespace RPGM.Gameplay
         public void OnCollisionExit2D(Collision2D collision)
         {
             // infoButton.gameObject.SetActive(false);
-            model.dialog.Hide();
+            // model.dialog.Hide();
         }
 
         public void CompleteQuest(Quest q)

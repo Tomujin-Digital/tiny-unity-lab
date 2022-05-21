@@ -23,7 +23,7 @@ namespace RPGM.Gameplay
             offset = focus.position - transform.position;
         }
 
-        void Update()
+        void LateUpdate()
         {
             var target = focus.position - offset;
             Vector3 targetPosition = new Vector3(focus.position.x, focus.position.y, transform.position.z);
