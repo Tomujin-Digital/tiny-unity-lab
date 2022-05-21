@@ -30,7 +30,7 @@ namespace RPGM.Gameplay
 
         public void OnTriggerEnter2D(Collider2D collider)
         {
-            MessageBar.Show($"Таны авсан эд зүйл: {name} x {count}");
+            MessageBar.Show($"Үүргэвчинд эд зүйл нэмэгдлээ.");
             model.AddInventoryItem(this);
             UserInterfaceAudio.OnCollect();
             gameObject.SetActive(false);

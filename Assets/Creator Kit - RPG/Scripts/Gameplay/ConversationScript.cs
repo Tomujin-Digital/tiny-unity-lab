@@ -20,6 +20,7 @@ namespace RPGM.Gameplay
 
         public ConversationPiece Get(string id)
         {
+            print(index);
             return index[id];
         }
 

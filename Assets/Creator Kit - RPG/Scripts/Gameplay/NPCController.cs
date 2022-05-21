@@ -28,11 +28,11 @@ namespace RPGM.Gameplay
         bool convoIsRead = false;
         public Button infoButton;
 
-      
         public void OnCollisionEnter2D(Collision2D collision)
         {
             var c = GetConversation();
-            if (convoIsRead == false)
+            
+            if (convoIsRead == false || c.name != this.name)
             {
                 if (c != null)
                 {
@@ -43,10 +43,10 @@ namespace RPGM.Gameplay
                     ev.conversationItemKey = "";
                 }
                 infoButton.gameObject.SetActive(true);
-                convoIsRead = true; 
+                convoIsRead = true;
             }
-            
         }
+
         public void OnCollisionExit2D(Collision2D collision)
         {
             // infoButton.gameObject.SetActive(false);
@@ -55,7 +55,8 @@ namespace RPGM.Gameplay
 
         public void CompleteQuest(Quest q)
         {
-            if (activeQuest != q) throw new System.Exception("Completed quest is not the active quest.");
+            if (activeQuest != q)
+                throw new System.Exception("Completed quest is not the active quest.");
             foreach (var i in activeQuest.requiredItems)
             {
                 model.RemoveInventoryItem(i.item, i.count);
@@ -67,7 +68,8 @@ namespace RPGM.Gameplay
 
         public void StartQuest(Quest q)
         {
-            if (activeQuest != null) throw new System.Exception("Only one quest should be active.");
+            if (activeQuest != null)
+                throw new System.Exception("Only one quest should be active.");
             activeQuest = q;
         }
 

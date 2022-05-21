@@ -120,7 +120,7 @@ namespace RPGM.Gameplay
         {
             foreach (var i in rewardItems)
             {
-                MessageBar.Show($"Таны авсан эд зүйл: {i.name} x {i.count}");
+                MessageBar.Show($"Үүргэвчинд эд зүйл нэмэгдлээ");
                 model.AddInventoryItem(i);
                 UserInterfaceAudio.OnCollect();
                 i.gameObject.SetActive(false);
