@@ -14,11 +14,18 @@ public class MainMenu : MonoBehaviour
         videoPlayer.SetActive(false);        
     }
 
-
+     
     public void PlayGame()
     {
         videoPlayer.SetActive(true);
+
+        if (videoPlayer.activeSelf)
+        {
+            Debug.Log("Hello: " + timeToStop);
+        }
         Destroy(videoPlayer, timeToStop);
+        
+
         SceneManager.LoadScene("SchoolsMap"); 
     }
 }
