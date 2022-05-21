@@ -38267,11 +38267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3801753215114926907, guid: b2032cb62979b4d2ea0d1321d0658425, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 200
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 3801753215114926907, guid: b2032cb62979b4d2ea0d1321d0658425, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 200
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 3801753215114926907, guid: b2032cb62979b4d2ea0d1321d0658425, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -43361,6 +43361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1301865757}
     m_Modifications:
+    - target: {fileID: 1860580944926950164, guid: 6dd5e29fee27d1e45874ebe0ace62d0c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 8857982007156463276, guid: 6dd5e29fee27d1e45874ebe0ace62d0c, type: 3}
       propertyPath: m_Name
       value: MainUI
