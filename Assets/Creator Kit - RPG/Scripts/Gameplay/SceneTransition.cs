@@ -13,7 +13,7 @@ public class SceneTransition : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            playerStorage.initialValue = PlayerPosition;
+            // playerStorage.initialValue = PlayerPosition;
             SceneManager.LoadSceneAsync(ScreenName);
         }
     }
