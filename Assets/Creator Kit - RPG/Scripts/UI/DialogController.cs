@@ -33,6 +33,7 @@ namespace RPGM.UI
 
         public void SelectActiveButton()
         {
+            model.input.ChangeState(InputController.State.CharacterControl);
             if (buttonCount > 0)
             {
                 if (selectedButton >= 0)
@@ -45,7 +46,6 @@ namespace RPGM.UI
             else
             {
                 //there are no buttons, just Hide when required.
-                model.input.ChangeState(InputController.State.CharacterControl);
                 Hide();
             }
         }

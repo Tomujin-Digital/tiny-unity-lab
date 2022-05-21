@@ -21,7 +21,7 @@ namespace RPGM.Gameplay
         void OnEnable()
         {
             infoButton = GetComponentInChildren<Button>();
-            infoButton.gameObject.SetActive(false);
+            // infoButton.gameObject.SetActive(false);
             quests = gameObject.GetComponentsInChildren<Quest>();
         }
 
@@ -31,9 +31,9 @@ namespace RPGM.Gameplay
       
         public void OnCollisionEnter2D(Collision2D collision)
         {
+            var c = GetConversation();
             if (convoIsRead == false)
             {
-                var c = GetConversation();
                 if (c != null)
                 {
                     var ev = Schedule.Add<Events.ShowConversation>();

@@ -18,7 +18,7 @@ namespace RPGM.UI
         GameModel model = Schedule.GetModel<GameModel>();
         SpriteUIElement sizer;
 
-        void Start()
+        void Awake()
         {
 
             firstItem = elementPrototype.localPosition;
@@ -31,8 +31,9 @@ namespace RPGM.UI
         public void Refresh()
         {
             var cursor = firstItem;
-            for (var i = 1; i < transform.childCount; i++)
+            for (var i = 1; i < transform.childCount; i++){
                 Destroy(transform.GetChild(i).gameObject);
+            }
             var displayCount = 0;
             foreach (var i in model.InventoryItems)
             {
@@ -47,11 +48,6 @@ namespace RPGM.UI
                 e.gameObject.SetActive(true);
                 cursor.y -= stepSize;
             }
-
-            if (displayCount > 0)
-                sizer.Show();
-            else
-                sizer.Hide();
         }
         public void HideAndShowInventory()
         {
