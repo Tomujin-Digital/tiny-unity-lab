@@ -20,7 +20,6 @@ namespace RPGM.Gameplay
 
         public ConversationPiece Get(string id)
         {
-            print(index);
             return index[id];
         }
 
@@ -49,7 +48,6 @@ namespace RPGM.Gameplay
             }
             for (var i = 0; i < items.Count; i++)
             {
-                print(originalConversationPiece.id);
                 if (items[i].id == originalConversationPiece.id)
                 {
                     items[i] = newConversationPiece;

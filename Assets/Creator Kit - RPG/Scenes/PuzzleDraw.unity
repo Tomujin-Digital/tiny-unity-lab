@@ -1454,6 +1454,12 @@ MonoBehaviour:
   ScreenName: 
   PlayerPosition: {x: 0, y: 0}
   playerStorage: {fileID: 0}
+  model:
+    player: {fileID: 0}
+    dialog: {fileID: 0}
+    input: {fileID: 0}
+    inventoryController: {fileID: 0}
+    musicController: {fileID: 0}
 --- !u!1 &827957424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,7 +1897,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388104414}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

@@ -59,10 +59,10 @@ namespace RPGM.Events
             var animator = gameObject.GetComponent<Animator>();
          
 
-            // if (ci.audio != null)
-            // {
-            //     UserInterfaceAudio.PlayClip(ci.audio);
-            // }
+            if (ci.audio != null)
+            {
+                UserInterfaceAudio.PlayClip(ci.audio);
+            }
 
             //speak some gibberish at two speech syllables per word.
             // UserInterfaceAudio.Speak(gameObject.GetInstanceID(), ci.text.Split(' ').Length * 2, 1);
