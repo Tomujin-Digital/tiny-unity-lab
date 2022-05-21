@@ -143,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementPrototype: {fileID: 2950804948209808962}
   stepSize: 0.55
+  inventory: {fileID: 2950804947535917092}
 --- !u!1 &2950804947712027016
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,8 +427,7 @@ MonoBehaviour:
   m_text: x 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4422fd8cf2666b84386346b5283ad2a7, type: 2}
-  m_sharedMaterial: {fileID: 21040265067069690, guid: 4422fd8cf2666b84386346b5283ad2a7,
-    type: 2}
+  m_sharedMaterial: {fileID: 21040265067069690, guid: 4422fd8cf2666b84386346b5283ad2a7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
