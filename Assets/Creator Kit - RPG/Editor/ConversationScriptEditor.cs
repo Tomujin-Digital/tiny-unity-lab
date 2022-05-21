@@ -17,7 +17,7 @@ namespace RPGM.Gameplay
         void OnEnable()
         {
             script = target as ConversationScript;
-            // list = new ReorderableList(serializedObject, serializedObject.FindProperty("items"), true, true, true, true);
+            list = new ReorderableList(serializedObject, serializedObject.FindProperty("items"), true, true, true, true);
             list = new ReorderableList(script.items, typeof(ConversationPiece), true, true, true, true);
             list.drawElementCallback = OnDrawElement;
             list.onAddCallback += OnAdd;
