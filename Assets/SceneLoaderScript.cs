@@ -13,6 +13,17 @@ public class SceneLoaderScript : MonoBehaviour
 
     // Update is called once per frame
 
+    void Start()
+    {
+        StartCoroutine(Example());
+    }
+
+    IEnumerator Example()
+    {
+        yield return new WaitForSeconds(2);
+        GameObject.Find("LoaderTransition").SetActive(false);        
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Collision");
